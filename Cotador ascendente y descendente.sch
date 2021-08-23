@@ -1,0 +1,849 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Contador Ascendente Descendente"
+Date "2020-01-11"
+Rev "1.0"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R1
+U 1 1 5E1A8A9C
+P 5450 2150
+F 0 "R1" V 5450 2150 50  0000 C CNN
+F 1 "330" V 5350 2150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 2150 50  0001 C CNN
+F 3 "~" H 5450 2150 50  0001 C CNN
+	1    5450 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E1A9396
+P 5450 2250
+F 0 "R2" V 5450 2250 50  0000 C CNN
+F 1 "330" V 5350 2250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 2250 50  0001 C CNN
+F 3 "~" H 5450 2250 50  0001 C CNN
+	1    5450 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E1A97A4
+P 5450 2350
+F 0 "R3" V 5450 2350 50  0000 C CNN
+F 1 "330" V 5350 2350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 2350 50  0001 C CNN
+F 3 "~" H 5450 2350 50  0001 C CNN
+	1    5450 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5E1A9A2E
+P 5450 2450
+F 0 "R4" V 5450 2450 50  0000 C CNN
+F 1 "330" V 5350 2450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 2450 50  0001 C CNN
+F 3 "~" H 5450 2450 50  0001 C CNN
+	1    5450 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5E1A9C27
+P 5450 2550
+F 0 "R5" V 5450 2550 50  0000 C CNN
+F 1 "330" V 5350 2550 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 2550 50  0001 C CNN
+F 3 "~" H 5450 2550 50  0001 C CNN
+	1    5450 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5E1A9E73
+P 5450 2650
+F 0 "R6" V 5450 2650 50  0000 C CNN
+F 1 "330" V 5350 2650 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 2650 50  0001 C CNN
+F 3 "~" H 5450 2650 50  0001 C CNN
+	1    5450 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5E1AA0B5
+P 5450 2750
+F 0 "R7" V 5450 2750 50  0000 C CNN
+F 1 "330" V 5350 2750 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 2750 50  0001 C CNN
+F 3 "~" H 5450 2750 50  0001 C CNN
+	1    5450 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS48 U3
+U 1 1 5E1AA78D
+P 4800 2450
+F 0 "U3" H 4900 3000 50  0000 C CNN
+F 1 "74LS48" H 5000 2900 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4800 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS48" H 4800 2450 50  0001 C CNN
+	1    4800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5E1AEBA4
+P 4800 1850
+F 0 "#PWR03" H 4800 1700 50  0001 C CNN
+F 1 "+5V" H 4815 2023 50  0000 C CNN
+F 2 "" H 4800 1850 50  0001 C CNN
+F 3 "" H 4800 1850 50  0001 C CNN
+	1    4800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E1AF5F5
+P 4800 3150
+F 0 "#PWR07" H 4800 2900 50  0001 C CNN
+F 1 "GND" H 4805 2977 50  0000 C CNN
+F 2 "" H 4800 3150 50  0001 C CNN
+F 3 "" H 4800 3150 50  0001 C CNN
+	1    4800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E1AF8E3
+P 6250 2900
+F 0 "#PWR05" H 6250 2650 50  0001 C CNN
+F 1 "GND" H 6255 2727 50  0000 C CNN
+F 2 "" H 6250 2900 50  0001 C CNN
+F 3 "" H 6250 2900 50  0001 C CNN
+	1    6250 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2850 6250 2850
+Wire Wire Line
+	6250 2850 6250 2900
+$Comp
+L 74xx:74LS192 U5
+U 1 1 5E1B06CB
+P 3300 2550
+F 0 "U5" H 3400 3200 50  0000 C CNN
+F 1 "74LS192" H 3500 3100 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3300 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf" H 3300 2550 50  0001 C CNN
+	1    3300 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2150 4300 2150
+Wire Wire Line
+	3800 2250 4300 2250
+$Comp
+L power:+5V #PWR01
+U 1 1 5E1B4507
+P 3300 1850
+F 0 "#PWR01" H 3300 1700 50  0001 C CNN
+F 1 "+5V" H 3315 2023 50  0000 C CNN
+F 2 "" H 3300 1850 50  0001 C CNN
+F 3 "" H 3300 1850 50  0001 C CNN
+	1    3300 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 2650 0    50   Input ~ 0
+probar
+Wire Wire Line
+	4300 2650 4200 2650
+Wire Wire Line
+	4300 2750 4250 2750
+Wire Wire Line
+	4250 2750 4250 1850
+$Comp
+L power:+5V #PWR02
+U 1 1 5E1B5C6B
+P 4250 1850
+F 0 "#PWR02" H 4250 1700 50  0001 C CNN
+F 1 "+5V" H 4265 2023 50  0000 C CNN
+F 2 "" H 4250 1850 50  0001 C CNN
+F 3 "" H 4250 1850 50  0001 C CNN
+	1    4250 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2850 4250 2850
+Wire Wire Line
+	4250 2850 4250 2750
+Connection ~ 4250 2750
+$Comp
+L power:GND #PWR08
+U 1 1 5E1B692C
+P 3300 3350
+F 0 "#PWR08" H 3300 3100 50  0001 C CNN
+F 1 "GND" H 3305 3177 50  0000 C CNN
+F 2 "" H 3300 3350 50  0001 C CNN
+F 3 "" H 3300 3350 50  0001 C CNN
+	1    3300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E1B6E05
+P 2800 3050
+F 0 "#PWR06" H 2800 2800 50  0001 C CNN
+F 1 "GND" H 2805 2877 50  0000 C CNN
+F 2 "" H 2800 3050 50  0001 C CNN
+F 3 "" H 2800 3050 50  0001 C CNN
+	1    2800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5E1B725E
+P 2750 1850
+F 0 "#PWR04" H 2750 1700 50  0001 C CNN
+F 1 "+5V" H 2765 2023 50  0000 C CNN
+F 2 "" H 2750 1850 50  0001 C CNN
+F 3 "" H 2750 1850 50  0001 C CNN
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1850 2750 2650
+Wire Wire Line
+	2750 2650 2800 2650
+Wire Wire Line
+	3800 2350 4300 2350
+Wire Wire Line
+	3800 2450 4300 2450
+$Comp
+L Device:R R8
+U 1 1 5E1C69A7
+P 5450 4300
+F 0 "R8" V 5450 4300 50  0000 C CNN
+F 1 "330" V 5350 4300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4300 50  0001 C CNN
+F 3 "~" H 5450 4300 50  0001 C CNN
+	1    5450 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5E1C69B1
+P 5450 4400
+F 0 "R9" V 5450 4400 50  0000 C CNN
+F 1 "330" V 5350 4400 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4400 50  0001 C CNN
+F 3 "~" H 5450 4400 50  0001 C CNN
+	1    5450 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5E1C69BB
+P 5450 4500
+F 0 "R10" V 5450 4500 50  0000 C CNN
+F 1 "330" V 5350 4500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4500 50  0001 C CNN
+F 3 "~" H 5450 4500 50  0001 C CNN
+	1    5450 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5E1C69C5
+P 5450 4600
+F 0 "R11" V 5450 4600 50  0000 C CNN
+F 1 "330" V 5350 4600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4600 50  0001 C CNN
+F 3 "~" H 5450 4600 50  0001 C CNN
+	1    5450 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5E1C69CF
+P 5450 4700
+F 0 "R12" V 5450 4700 50  0000 C CNN
+F 1 "330" V 5350 4700 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4700 50  0001 C CNN
+F 3 "~" H 5450 4700 50  0001 C CNN
+	1    5450 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5E1C69D9
+P 5450 4800
+F 0 "R13" V 5450 4800 50  0000 C CNN
+F 1 "330" V 5350 4800 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4800 50  0001 C CNN
+F 3 "~" H 5450 4800 50  0001 C CNN
+	1    5450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5E1C69E3
+P 5450 4900
+F 0 "R14" V 5450 4900 50  0000 C CNN
+F 1 "330" V 5350 4900 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4900 50  0001 C CNN
+F 3 "~" H 5450 4900 50  0001 C CNN
+	1    5450 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS48 U4
+U 1 1 5E1C69ED
+P 4800 4600
+F 0 "U4" H 4900 5150 50  0000 C CNN
+F 1 "74LS48" H 5000 5050 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 4800 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS48" H 4800 4600 50  0001 C CNN
+	1    4800 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:KCSC02-105 U2
+U 1 1 5E1C69F7
+P 5900 4600
+F 0 "U2" H 5900 5267 50  0000 C CNN
+F 1 "KCSC02-105" H 5900 5176 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5900 4000 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 5400 5075 50  0001 L CNN
+	1    5900 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 5E1C6A01
+P 4800 4000
+F 0 "#PWR011" H 4800 3850 50  0001 C CNN
+F 1 "+5V" H 4815 4173 50  0000 C CNN
+F 2 "" H 4800 4000 50  0001 C CNN
+F 3 "" H 4800 4000 50  0001 C CNN
+	1    4800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5E1C6A0B
+P 4800 5300
+F 0 "#PWR015" H 4800 5050 50  0001 C CNN
+F 1 "GND" H 4805 5127 50  0000 C CNN
+F 2 "" H 4800 5300 50  0001 C CNN
+F 3 "" H 4800 5300 50  0001 C CNN
+	1    4800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5E1C6A15
+P 6250 5050
+F 0 "#PWR013" H 6250 4800 50  0001 C CNN
+F 1 "GND" H 6255 4877 50  0000 C CNN
+F 2 "" H 6250 5050 50  0001 C CNN
+F 3 "" H 6250 5050 50  0001 C CNN
+	1    6250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5000 6250 5000
+Wire Wire Line
+	6250 5000 6250 5050
+$Comp
+L 74xx:74LS192 U6
+U 1 1 5E1C6A21
+P 3300 4700
+F 0 "U6" H 3400 5350 50  0000 C CNN
+F 1 "74LS192" H 3500 5250 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket_LongPads" H 3300 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls193.pdf" H 3300 4700 50  0001 C CNN
+	1    3300 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4300 4300 4300
+Wire Wire Line
+	3800 4400 4300 4400
+$Comp
+L power:+5V #PWR09
+U 1 1 5E1C6A2D
+P 3300 4000
+F 0 "#PWR09" H 3300 3850 50  0001 C CNN
+F 1 "+5V" H 3315 4173 50  0000 C CNN
+F 2 "" H 3300 4000 50  0001 C CNN
+F 3 "" H 3300 4000 50  0001 C CNN
+	1    3300 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 4800 0    50   Input ~ 0
+probar
+Wire Wire Line
+	4300 4800 4200 4800
+Wire Wire Line
+	4300 4900 4250 4900
+Wire Wire Line
+	4250 4900 4250 4000
+$Comp
+L power:+5V #PWR010
+U 1 1 5E1C6A3B
+P 4250 4000
+F 0 "#PWR010" H 4250 3850 50  0001 C CNN
+F 1 "+5V" H 4265 4173 50  0000 C CNN
+F 2 "" H 4250 4000 50  0001 C CNN
+F 3 "" H 4250 4000 50  0001 C CNN
+	1    4250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5000 4250 5000
+Wire Wire Line
+	4250 5000 4250 4900
+Connection ~ 4250 4900
+$Comp
+L power:GND #PWR016
+U 1 1 5E1C6A48
+P 3300 5500
+F 0 "#PWR016" H 3300 5250 50  0001 C CNN
+F 1 "GND" H 3305 5327 50  0000 C CNN
+F 2 "" H 3300 5500 50  0001 C CNN
+F 3 "" H 3300 5500 50  0001 C CNN
+	1    3300 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5E1C6A52
+P 2800 5200
+F 0 "#PWR014" H 2800 4950 50  0001 C CNN
+F 1 "GND" H 2805 5027 50  0000 C CNN
+F 2 "" H 2800 5200 50  0001 C CNN
+F 3 "" H 2800 5200 50  0001 C CNN
+	1    2800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 5E1C6A5C
+P 2750 4000
+F 0 "#PWR012" H 2750 3850 50  0001 C CNN
+F 1 "+5V" H 2765 4173 50  0000 C CNN
+F 2 "" H 2750 4000 50  0001 C CNN
+F 3 "" H 2750 4000 50  0001 C CNN
+	1    2750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4000 2750 4800
+Wire Wire Line
+	2750 4800 2800 4800
+Wire Wire Line
+	3800 4500 4300 4500
+Wire Wire Line
+	3800 4600 4300 4600
+Wire Wire Line
+	3800 2650 3850 2650
+Wire Wire Line
+	3850 2650 3850 3700
+Wire Wire Line
+	3850 3700 2600 3700
+Wire Wire Line
+	2600 3700 2600 5000
+Wire Wire Line
+	2600 5000 2800 5000
+Wire Wire Line
+	2800 5100 2550 5100
+Wire Wire Line
+	2550 5100 2550 3650
+Wire Wire Line
+	2550 3650 3800 3650
+Wire Wire Line
+	3800 3650 3800 2850
+$Comp
+L 74xx:74LS00 U7
+U 1 1 5E20F4F7
+P 2250 2650
+F 0 "U7" H 2250 2975 50  0000 C CNN
+F 1 "74LS00" H 2250 2884 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2250 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2250 2650 50  0001 C CNN
+	1    2250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U7
+U 2 1 5E211E7E
+P 2250 3200
+F 0 "U7" H 2250 3525 50  0000 C CNN
+F 1 "74LS00" H 2250 3434 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 2250 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2250 3200 50  0001 C CNN
+	2    2250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U7
+U 5 1 5E21757A
+P 1850 4450
+F 0 "U7" H 2080 4496 50  0000 L CNN
+F 1 "74LS00" H 2080 4405 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1850 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1850 4450 50  0001 C CNN
+	5    1850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U8
+U 1 1 5E21E8CD
+P 1650 2550
+F 0 "U8" H 1650 2867 50  0000 C CNN
+F 1 "74LS04" H 1650 2776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1650 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1650 2550 50  0001 C CNN
+	1    1650 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2550 1350 3100
+Wire Wire Line
+	1350 3100 1950 3100
+Wire Wire Line
+	1950 2750 1900 2750
+Wire Wire Line
+	1900 2750 1900 3300
+Wire Wire Line
+	1900 3300 1950 3300
+Wire Wire Line
+	2800 2950 2650 2950
+Wire Wire Line
+	2650 2950 2650 3200
+Wire Wire Line
+	2650 3200 2550 3200
+Wire Wire Line
+	2800 2850 2650 2850
+Wire Wire Line
+	2650 2850 2650 2650
+Wire Wire Line
+	2650 2650 2550 2650
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5E2331B2
+P 1150 2550
+F 0 "SW1" H 1150 2225 50  0000 C CNN
+F 1 "Cambiar" H 1150 2316 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1150 2550 50  0001 C CNN
+F 3 "~" H 1150 2550 50  0001 C CNN
+	1    1150 2550
+	-1   0    0    1   
+$EndComp
+Connection ~ 1350 2550
+$Comp
+L power:GND #PWR0101
+U 1 1 5E245F8F
+P 850 2700
+F 0 "#PWR0101" H 850 2450 50  0001 C CNN
+F 1 "GND" H 855 2527 50  0000 C CNN
+F 2 "" H 850 2700 50  0001 C CNN
+F 3 "" H 850 2700 50  0001 C CNN
+	1    850  2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5E246740
+P 850 2400
+F 0 "#PWR0102" H 850 2250 50  0001 C CNN
+F 1 "+5V" H 865 2573 50  0000 C CNN
+F 2 "" H 850 2400 50  0001 C CNN
+F 3 "" H 850 2400 50  0001 C CNN
+	1    850  2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  2650 850  2650
+Wire Wire Line
+	850  2650 850  2700
+Wire Wire Line
+	950  2450 850  2450
+Wire Wire Line
+	850  2450 850  2400
+$Comp
+L power:+5V #PWR0103
+U 1 1 5E249341
+P 1850 3950
+F 0 "#PWR0103" H 1850 3800 50  0001 C CNN
+F 1 "+5V" H 1865 4123 50  0000 C CNN
+F 2 "" H 1850 3950 50  0001 C CNN
+F 3 "" H 1850 3950 50  0001 C CNN
+	1    1850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5E24E44A
+P 1050 3950
+F 0 "#PWR0104" H 1050 3800 50  0001 C CNN
+F 1 "+5V" H 1065 4123 50  0000 C CNN
+F 2 "" H 1050 3950 50  0001 C CNN
+F 3 "" H 1050 3950 50  0001 C CNN
+	1    1050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5E24F11F
+P 1850 4950
+F 0 "#PWR0105" H 1850 4700 50  0001 C CNN
+F 1 "GND" H 1855 4777 50  0000 C CNN
+F 2 "" H 1850 4950 50  0001 C CNN
+F 3 "" H 1850 4950 50  0001 C CNN
+	1    1850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E24F631
+P 1050 4950
+F 0 "#PWR0106" H 1050 4700 50  0001 C CNN
+F 1 "GND" H 1055 4777 50  0000 C CNN
+F 2 "" H 1050 4950 50  0001 C CNN
+F 3 "" H 1050 4950 50  0001 C CNN
+	1    1050 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U8
+U 7 1 5E21D193
+P 1050 4450
+F 0 "U8" H 1280 4496 50  0000 L CNN
+F 1 "74LS04" H 1280 4405 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1050 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1050 4450 50  0001 C CNN
+	7    1050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U8
+U 2 1 5E25511E
+P 1600 3300
+F 0 "U8" H 1600 3100 50  0000 C CNN
+F 1 "74LS04" H 1600 3000 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket_LongPads" H 1600 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 1600 3300 50  0001 C CNN
+	2    1600 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1900 3300
+Text GLabel 1300 3300 0    50   Input ~ 0
+Entrada
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5E262A9B
+P 850 1200
+F 0 "J1" H 742 1385 50  0000 C CNN
+F 1 "5V" H 742 1294 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 850 1200 50  0001 C CNN
+F 3 "~" H 850 1200 50  0001 C CNN
+	1    850  1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 5E263CED
+P 1150 1200
+F 0 "#PWR0107" H 1150 1050 50  0001 C CNN
+F 1 "+5V" H 1165 1373 50  0000 C CNN
+F 2 "" H 1150 1200 50  0001 C CNN
+F 3 "" H 1150 1200 50  0001 C CNN
+	1    1150 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1200 1050 1200
+$Comp
+L power:GND #PWR0108
+U 1 1 5E268AA4
+P 1150 1300
+F 0 "#PWR0108" H 1150 1050 50  0001 C CNN
+F 1 "GND" H 1155 1127 50  0000 C CNN
+F 2 "" H 1150 1300 50  0001 C CNN
+F 3 "" H 1150 1300 50  0001 C CNN
+	1    1150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1300 1050 1300
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5E26BFB0
+P 1650 950
+F 0 "J2" H 1542 1135 50  0000 C CNN
+F 1 "5V-555" H 1542 1044 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1650 950 50  0001 C CNN
+F 3 "~" H 1650 950 50  0001 C CNN
+	1    1650 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J3
+U 1 1 5E26CF1E
+P 1600 1550
+F 0 "J3" H 1500 1300 50  0000 L CNN
+F 1 "Entrada" H 1400 1400 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 1600 1550 50  0001 C CNN
+F 3 "~" H 1600 1550 50  0001 C CNN
+	1    1600 1550
+	-1   0    0    1   
+$EndComp
+Text GLabel 1800 1550 2    50   Output ~ 0
+Entrada
+$Comp
+L power:+5V #PWR0109
+U 1 1 5E2A3C05
+P 2050 950
+F 0 "#PWR0109" H 2050 800 50  0001 C CNN
+F 1 "+5V" H 2065 1123 50  0000 C CNN
+F 2 "" H 2050 950 50  0001 C CNN
+F 3 "" H 2050 950 50  0001 C CNN
+	1    2050 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 950  1850 950 
+$Comp
+L power:GND #PWR0110
+U 1 1 5E2A7AF1
+P 2050 1050
+F 0 "#PWR0110" H 2050 800 50  0001 C CNN
+F 1 "GND" H 2055 877 50  0000 C CNN
+F 2 "" H 2050 1050 50  0001 C CNN
+F 3 "" H 2050 1050 50  0001 C CNN
+	1    2050 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1050 1850 1050
+NoConn ~ 2800 2150
+NoConn ~ 2800 2250
+NoConn ~ 2800 2350
+NoConn ~ 2800 2450
+NoConn ~ 2800 4300
+NoConn ~ 2800 4400
+NoConn ~ 2800 4500
+NoConn ~ 2800 4600
+NoConn ~ 3800 4800
+NoConn ~ 3800 5000
+NoConn ~ 5600 5000
+NoConn ~ 5600 2850
+Text GLabel 3100 1300 2    50   Output ~ 0
+probar
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5E2E5E25
+P 2750 1300
+F 0 "SW2" H 2750 1585 50  0000 C CNN
+F 1 "probarDisp" H 2750 1494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2750 1500 50  0001 C CNN
+F 3 "~" H 2750 1500 50  0001 C CNN
+	1    2750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5E2E8908
+P 3050 1150
+F 0 "R15" H 3120 1196 50  0000 L CNN
+F 1 "1k" H 3120 1105 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2980 1150 50  0001 C CNN
+F 3 "~" H 3050 1150 50  0001 C CNN
+	1    3050 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1300 3050 1300
+Connection ~ 3050 1300
+Wire Wire Line
+	3050 1300 3100 1300
+$Comp
+L power:+5V #PWR0111
+U 1 1 5E2EE08E
+P 3050 1000
+F 0 "#PWR0111" H 3050 850 50  0001 C CNN
+F 1 "+5V" H 3065 1173 50  0000 C CNN
+F 2 "" H 3050 1000 50  0001 C CNN
+F 3 "" H 3050 1000 50  0001 C CNN
+	1    3050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5E2EF9E5
+P 2550 1300
+F 0 "#PWR0112" H 2550 1050 50  0001 C CNN
+F 1 "GND" H 2555 1127 50  0000 C CNN
+F 2 "" H 2550 1300 50  0001 C CNN
+F 3 "" H 2550 1300 50  0001 C CNN
+	1    2550 1300
+	1    0    0    -1  
+$EndComp
+Text Label 4000 2150 0    50   ~ 0
+A1
+Text Label 4000 2250 0    50   ~ 0
+B1
+Text Label 4000 2350 0    50   ~ 0
+C1
+Text Label 4000 2450 0    50   ~ 0
+D1
+Text Label 4000 4300 0    50   ~ 0
+A2
+Text Label 4000 4400 0    50   ~ 0
+B2
+Text Label 4000 4500 0    50   ~ 0
+C2
+Text Label 4000 4600 0    50   ~ 0
+D2
+Text Label 2700 2850 0    50   ~ 0
+Up
+Text Label 2700 2950 0    50   ~ 0
+dw
+Text Label 3850 3000 0    50   ~ 0
+c
+Text Label 3800 3000 2    50   ~ 0
+b
+Wire Wire Line
+	6250 2850 6250 2750
+Wire Wire Line
+	6250 2750 6200 2750
+Connection ~ 6250 2850
+$Comp
+L Display_Character:KCSC02-105 U1
+U 1 1 5E1AD394
+P 5900 2450
+F 0 "U1" H 5900 3117 50  0000 C CNN
+F 1 "KCSC02-105" H 5900 3026 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 5900 1850 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSC02-105(Ver.9A).pdf" H 5400 2925 50  0001 L CNN
+	1    5900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 5000 6250 4900
+Wire Wire Line
+	6250 4900 6200 4900
+Connection ~ 6250 5000
+$EndSCHEMATC
